@@ -11,7 +11,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSString* textFromCppCore = [CoreWrapper concateneMyStringWithCppString:@"Objective-c"];
+    NSString* textFromCppCore = [CoreWrapper concatenateMyStringWithCppString:@"Obj-C++"];
     [_textField setText:textFromCppCore];
 }
 

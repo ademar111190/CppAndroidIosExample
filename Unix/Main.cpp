@@ -3,7 +3,7 @@
 #include "../CPP/Core.h"
 
 int main() {
-  std::string textFromCppCore = concateneMyStringWithCppString("Unix");
+  std::string textFromCppCore = concatenateMyStringWithCppString("Unix");
   std::cout << textFromCppCore << '\n';
   return 0;
 }

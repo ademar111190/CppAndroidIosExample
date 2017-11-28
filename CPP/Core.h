@@ -3,6 +3,6 @@
 
 #include <iostream>
 
-const char* concateneMyStringWithCppString(const char* myString);
+const char *concatenateMyStringWithCppString(const char *myString);
 
 #endif /* defined(__HelloCpp__Core__) */

@@ -3,6 +3,6 @@
 
 @interface CoreWrapper : NSObject
 
-+ (NSString*) concateneMyStringWithCppString:(NSString*)myString;
++ (NSString*) concatenateMyStringWithCppString:(NSString*)myString;
 
 @end
