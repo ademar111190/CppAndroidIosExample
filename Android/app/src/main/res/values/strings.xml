@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AndroidIosCppExample</string>
+    <string name="app_click_kotlin">Bonus: Open Kotlin Activity</string>
+</resources>
