@@ -27,7 +27,7 @@ First of all, we are going to create the shared CPP code, doing it we have a sim
 
 ## Unix
 
-An interesting bonus is, we can also use the same code for Linux and Mac as well as other Unix systems. This possibility is especially useful because we can test our shared code faster, so we are going to create the [Main.cpp]() File to execute it from our machine and see if the shared code is working. To build the code, you need to execute [shell](Unix/compileToUnix.sh) helper file, and finally, you can run it with a simple `./main` the result should be:
+An interesting bonus is, we can also use the same code for Linux and Mac as well as other Unix systems. This possibility is especially useful because we can test our shared code faster, so we are going to create the [Main.cpp](Unix/Main.cpp) File to execute it from our machine and see if the shared code is working. To build the code, you need to execute [shell](Unix/compileToUnix.sh) helper file, and finally, you can run it with a simple `./main` the result should be:
 
 ```
 $ sh compileToUnix.sh 
