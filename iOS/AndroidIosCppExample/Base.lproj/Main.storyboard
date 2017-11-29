@@ -18,22 +18,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zdY-Gr-g4e">
-                                <rect key="frame" x="174" y="325.5" width="27" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xpx-GO-tu9">
+                                <rect key="frame" x="187" y="343.5" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="zdY-Gr-g4e" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="6Rl-OJ-yN7"/>
-                            <constraint firstItem="zdY-Gr-g4e" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="Be3-A6-qhD"/>
+                            <constraint firstItem="xpx-GO-tu9" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="Jba-Zl-wLc"/>
+                            <constraint firstItem="xpx-GO-tu9" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="LMe-mV-2QK"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="textField" destination="zdY-Gr-g4e" id="mZC-4P-5cQ"/>
+                        <outlet property="label" destination="xpx-GO-tu9" id="Kd6-Bs-JFX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

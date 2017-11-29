@@ -3,7 +3,7 @@
 
 @interface ViewController ()
 
-@property (weak, nonatomic) IBOutlet UITextField *textField;
+@property (weak, nonatomic) IBOutlet UILabel *label;
 
 @end
 
@@ -12,7 +12,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSString* textFromCppCore = [CoreWrapper concatenateMyStringWithCppString:@"Obj-C++"];
-    [_textField setText:textFromCppCore];
+    [_label setText:textFromCppCore];
 }
 
 @end
