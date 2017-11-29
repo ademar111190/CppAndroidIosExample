@@ -66,4 +66,11 @@ The final step is to convert the JNI types to the types we use on CPP side. On o
 ![AndroidStudio](Assets/AndroidStudio.png)
 ![Android](Assets/Android.png)
 
+## Bonus Swift and MacOS
+
+Currently, there is no integration between swift and C++, so to use our C++ shared code on Swift it is necessary to use Objective-C++ as a bridge. The code is almost the same as the iOS sample, the only additional stuff is related to Swift - Obj-C integration, it is the [Bridge header](Swift/AndroidIosCppExample/AndroidIosCppExample-Bridging-Header.h). To see how flexible our CPP code is, the swift sample is a MacOS app, enjoy.
+
+![Xcode-Swift](Assets/Xcode-Swift.png)
+![Swift](Assets/Swift.png)
+
 Thank you for read, please let me know any question you have.
