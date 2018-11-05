@@ -17,7 +17,7 @@ android {
         }
     }
     buildTypes {
-        all {
+        release {
             minifyEnabled true
             useProguard true
             shrinkResources false
